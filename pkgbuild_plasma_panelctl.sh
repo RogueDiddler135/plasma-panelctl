@@ -1,7 +1,3 @@
-# PKGBUILD template for "plasma-panelctl"
-# Replace fields below (pkgver, url, license, source, sha256sums, etc.)
-# Save this file in a directory named "plasma-panelctl" alongside your source files
-
 pkgname=plasma-panelctl
 pkgver=0.1.0
 pkgrel=1
@@ -9,16 +5,10 @@ pkgdesc="CLI/utility to toggle KDE Plasma panel visibility/state"
 arch=('x86_64')
 url="https://example.com/plasma-panelctl"
 license=('MIT')
-# runtime dependencies - adjust as needed
 depends=('kde-cli-tools' 'plasma-workspace')
-# build-time deps if your project needs compiling (e.g., gcc, cmake)
 makedepends=('gcc')
 
-# If you're packaging a single script/binary shipped with the PKGBUILD, use source=("myprogram.sh")
-# If packaging from a git repository, use something like: source=("git+https://...#branch=main")
-# Example: source=("plasma-panelctl-0.1.0.tar.gz")
 source=("plasma-panelctl-${pkgver}.tar.gz")
-# If source is local or you don't want to check sums, set sha256sums=('SKIP')
 sha256sums=('SKIP')
 
 prepare() {
