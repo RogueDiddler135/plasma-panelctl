@@ -49,3 +49,13 @@ An expandable control panel to change the visibility of your panels using keybin
 - Supports multiple panels, keybinds, and quick switching  
 
 ---
+# Available commands:
+- list | lists all panels
+- create | create a new panel configuration
+- uninstall | remove panelctl from your desktop
+- version | displays panelctl version
+- visible | makes panels selected onto option “Windows go below” to make them visually appear
+- help | lists all commands regarding panelctl
+- edit | edit a certain aspect of a panel
+- enable | enable a panel’s configuration
+- disable | disable a panel’s configuration
