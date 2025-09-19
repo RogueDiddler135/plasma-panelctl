@@ -1,13 +1,13 @@
 <div align="center">
 
-# panelctl
+# plasma-panelctl
 
 An expandable control panel to change the visibility of your panels using keybinds.
 
 </div>
 
 > [!IMPORTANT]
-> Please make sure to restart plasma before making a report.
+> Please make sure to restart Plasma and check if it works before making a report.
 
 > [!WARNING]
 > **Project is under active development. Look for BREAKING CHANGES in the Release notes.**
