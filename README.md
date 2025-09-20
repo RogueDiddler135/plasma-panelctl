@@ -2,7 +2,7 @@
 
 # plasma-panelctl
 
-An expandable control panel to change the visibility of your panels using keybinds.
+An expandable processless terminal control panel to change the visibility of your panels using keybinds.
 
 </div>
 
